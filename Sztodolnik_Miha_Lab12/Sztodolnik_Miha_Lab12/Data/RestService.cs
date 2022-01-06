@@ -13,7 +13,7 @@ namespace Sztodolnik_Miha_Lab12.Data
         HttpClient client;
 
         //se va modifica ulterior cu ip-ul si portul corespunzator
-        string RestUrl = "https://192.168.100.20:45455/weatherforecast";
+        string RestUrl = "https://192.168.100.20:45455/api/shoplists";
         public List<ShopList> Items { get; private set; }
         public RestService()
         {
