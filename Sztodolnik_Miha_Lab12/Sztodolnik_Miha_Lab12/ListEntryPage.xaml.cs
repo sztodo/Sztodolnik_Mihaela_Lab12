@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Sztodolnik_Miha_Lab12.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,6 +12,8 @@ namespace Sztodolnik_Miha_Lab12
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListEntryPage : ContentPage
     {
+        public object Navigation { get; private set; }
+
         public ListEntryPage()
         {
             InitializeComponent();
